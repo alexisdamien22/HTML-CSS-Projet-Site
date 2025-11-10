@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-image: url("Pictures/Background_header.png");
+    background-size: 100%;
+    background: scaleX(-1);
+    border-image-width: 100%;
+    aspect-ratio: 1280/813; 
+}
+
+h2 {
+    text-align: center;
+    font-family: "Sansita Swashed", system-ui;
+    font-optical-sizing: 33%;
+    font-weight: auto;
+    font-style: SemiBold;
+    color: black;
+}
+.header-top {
+    display: flex;
+    position: absolute;
+    left: 10px;
+    gap: 10%;
+    top: 10px;
+    align-items: center;
+}
+
+.header-icon {
+    display: flex;
+    position: relative;
+    width: 10%;
+    height: auto;
+}
+
+.top-info {
+    position: relative;
+    min-width: 450px;
+    display: flex;
+    gap: 33px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: SemiBold;
+    color: white;
+}
