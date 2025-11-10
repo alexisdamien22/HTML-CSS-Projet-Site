@@ -10,26 +10,41 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <nav>
+        <nav class="topnav">
             <!-- Top Navigation Menu -->
-            <div class="topnav">
-                <a href="#home" class="active">
-                    <img src="Pictures/Keithston_icon.png" alt="Keithston-icon" class="header-icon">
-                </a>
-                <!-- Navigation links (hidden by default) -->
-                <div id="myLinks">
-                    <a href="#news">Acceuil</a>
-                    <a href="#contact">Blog</a>
-                    <a href="#about">Contact</a>
-                    <a href="#about">Services</a>
-                </div>
-                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
+            <a href="#home" class="active">
+                <img src="Pictures/Keithston_icon.png" alt="Keithston-icon" class="nav-icon">
+            </a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="#news">Acceuil</a>
+                <a href="#contact">Blog</a>
+                <a href="#about">Contact</a>
+                <a href="#about">Services</a>
             </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </nav>
         <header>
+            <section class="header-top">
+                <img src="Pictures/Keithston_icon.png" alt="Keithston-icon" class="header-icon">
+                <div class="top-info">
+                    <div class="top-info-btn">
+                        <p>Accueil</p>
+                    </div>
+                    <div class="top-info-btn">
+                        <p>Blog</p>
+                    </div>
+                    <div class="top-info-btn">
+                        <p>Contact</p>
+                    </div>
+                    <div class="top-info-btn">
+                        <p>Services</p>
+                    </div>
+                </div>
+            </section>
         </header>
         <h2>Nos Tops Produits</h2>
         <section class="section-top-produits">

@@ -27,7 +27,7 @@ h2 {
     color: black;
 }
 
-.header-icon {
+.nav-icon {
     display: flex;
     position: relative;
     width: 2rem;
@@ -63,11 +63,6 @@ h2 {
   top: 30%;
 }
 
-/* Add a grey background color on mouse-over */
-.header-icon a:hover {
-  background-color: #ddd;
-}
-
 /* Style the active link (or home/logo) */
 .active {
   background-color: white;
@@ -80,6 +75,13 @@ h2 {
     gap: 10%;
     top: 10px;
     align-items: center;
+}
+
+.header-icon {
+    display: flex;
+    position: relative;
+    width: 2rem;
+    height: auto;
 }
 
 .top-info {
@@ -196,4 +198,26 @@ h2 {
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 
+}
+
+@media (max-width: 768px) {
+.topnav {
+width: 100%; /* adds full width to mydiv which is best for mobiles */
+display: block; /* displays mydiv as a block */
+}
+.header-top {
+position:absolute;
+display: none; /* Doesn’t display mydiv-2 at screen sizes upto 700px  */
+}
+}
+
+@media (min-width: 769px) {
+.header-top {
+width: 100%; /* adds full width to mydiv which is best for mobiles */
+display: block; /* displays mydiv as a block */
+}
+.topnav {
+position:absolute;
+display: none; /* Doesn’t display mydiv-2 at screen sizes upto 700px  */
+}
 }
