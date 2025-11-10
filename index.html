@@ -10,24 +10,26 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <header>
-            <section class="header-top">
-                <img src="Pictures/Keithston_icon.png" alt="Keithston-icon" class="header-icon">
-                <div class="top-info">
-                    <div class="top-info-btn">
-                        <p>Accueil</p>
-                    </div>
-                    <div class="top-info-btn">
-                        <p>Blog</p>
-                    </div>
-                    <div class="top-info-btn">
-                        <p>Contact</p>
-                    </div>
-                    <div class="top-info-btn">
-                        <p>Services</p>
-                    </div>
+        <nav>
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <a href="#home" class="active">
+                    <img src="Pictures/Keithston_icon.png" alt="Keithston-icon" class="header-icon">
+                </a>
+                <!-- Navigation links (hidden by default) -->
+                <div id="myLinks">
+                    <a href="#news">Acceuil</a>
+                    <a href="#contact">Blog</a>
+                    <a href="#about">Contact</a>
+                    <a href="#about">Services</a>
                 </div>
-            </section>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        <header>
         </header>
         <h2>Nos Tops Produits</h2>
         <section class="section-top-produits">
@@ -38,12 +40,14 @@
                 <div class="top-produit-photo">
                     <img src="Pictures/Pain_complet.png" alt="Pain-complet">
                 </div>
-                <p class="prix-top-produit">40€</p>
-                <p class="nom-top-produit">Pain complet</p>
-                <div class="info-btn">
-                    <img src="Pictures/Info_btn.png" alt="Info">
+                <div class="top-produit-texts">
+                    <p class="prix-top-produit">40€</p>
+                    <div class="info-btn">
+                        <img src="Pictures/Info_btn.png" alt="Info">
+                    </div>
+                    <p class="nom-top-produit">Pain complet</p>
+                    <div class="add-btn"></div>
                 </div>
-                <div class="add-btn"></div>
             </div>
             <div class="top-produit">
                 <div class="background-top-produit">
@@ -52,12 +56,14 @@
                 <div class="top-produit-photo">
                     <img src="Pictures/Patisserie_feuilletee.png" alt="Pâtisserie-feuilletée">
                 </div>
-                <p class="prix-top-produit">40€</p>
-                <p class="nom-top-produit">Pâtisserie feuilletée</p>
-                <div class="info-btn">
-                    <img src="Pictures/Info_btn.png" alt="Info">
+                <div class="top-produit-texts">
+                    <p class="prix-top-produit">40€</p>
+                    <div class="info-btn">
+                        <img src="Pictures/Info_btn.png" alt="Info">
+                    </div>
+                    <p class="nom-top-produit">Pâtisserie feuilletée</p>
+                    <div class="add-btn"></div>
                 </div>
-                <div class="add-btn"></div>
             </div>
             <div class="top-produit">
                 <div class="background-top-produit">
@@ -66,12 +72,14 @@
                 <div class="top-produit-photo">
                     <img src="Pictures/Baguette_de_campagne.png" alt="Baguette-de-campagne">
                 </div>
-                <p class="prix-top-produit">40€</p>
-                <p class="nom-top-produit">Baguette de campagne</p>
-                <div class="info-btn">
-                    <img src="Pictures/Info_btn.png" alt="Info">
+                <div class="top-produit-texts">
+                    <p class="prix-top-produit">40€</p>
+                    <div class="info-btn">
+                        <img src="Pictures/Info_btn.png" alt="Info">
+                    </div>
+                    <p class="nom-top-produit">Baguette de campagne</p>
+                    <div class="add-btn"></div>
                 </div>
-                <div class="add-btn"></div>
             </div>
             <div class="top-produit">
                 <div class="background-top-produit">
@@ -80,12 +88,14 @@
                 <div class="top-produit-photo">
                     <img src="Pictures/Miche_de_pain_blanc.png" alt="Miche-de-pain-blanc">
                 </div>
-                <p class="prix-top-produit">40€</p>
-                <p class="nom-top-produit">Miche de pain blanc</p>
-                <div class="info-btn">
-                    <img src="Pictures/Info_btn.png" alt="Info">
+                <div class="top-produit-texts">
+                    <p class="prix-top-produit">40€</p>
+                    <div class="info-btn">
+                        <img src="Pictures/Info_btn.png" alt="Info">
+                    </div>
+                    <p class="nom-top-produit">Miche de pain blanc</p>
+                    <div class="add-btn"></div>
                 </div>
-                <div class="add-btn"></div>
             </div>
             <div class="top-produit">
                 <div class="background-top-produit">
@@ -94,12 +104,14 @@
                 <div class="top-produit-photo">
                     <img src="Pictures/Gateau_pate_feuilletee.png" alt="Gâteau-pâte-feuilletée">
                 </div>
-                <p class="prix-top-produit">40€</p>
-                <p class="nom-top-produit">Gâteau pâte feuilletée</p>
-                <div class="info-btn">
-                    <img src="Pictures/Info_btn.png" alt="Info">
+                <div class="top-produit-texts">
+                    <p class="prix-top-produit">40€</p>
+                    <div class="info-btn">
+                        <img src="Pictures/Info_btn.png" alt="Info">
+                    </div>
+                    <p class="nom-top-produit">Gâteau pâte feuilletée</p>
+                    <div class="add-btn"></div>
                 </div>
-                <div class="add-btn"></div>
             </div>
             <div class="top-produit">
                 <div class="background-top-produit">
@@ -108,12 +120,14 @@
                 <div class="top-produit-photo">
                     <img src="Pictures/Miche_de_pain_complet.png" alt="Miche-de-pain-complet">
                 </div>
-                <p class="prix-top-produit">40€</p>
-                <p class="nom-top-produit">Miche de pain complet</p>
-                <div class="info-btn">
-                    <img src="Pictures/Info_btn.png" alt="Info">
+                <div class="top-produit-texts">
+                    <p class="prix-top-produit">40€</p>
+                    <div class="info-btn">
+                        <img src="Pictures/Info_btn.png" alt="Info">
+                    </div>
+                    <p class="nom-top-produit">Miche de pain complet</p>
+                    <div class="add-btn"></div>
                 </div>
-                <div class="add-btn"></div>
             </div>
         </section>
         <section class="reduction">
@@ -154,7 +168,7 @@
         </section>
         <section class="about">
             <div class="about-background">
-                <img src="Pictures/Background__a_propos.png" alt="Background-a-propos">
+                <img src="Pictures/Background_a_propos.png" alt="Background-a-propos">
             </div>
             <h4>A propos</h3>
             <p>Un café moderne qui respecte les recettes traditionneles en vous proposant du "fait maison".</p>
@@ -240,5 +254,6 @@
             </section>
             <p class="footer-rights">© 2025 Coda Bakery. Tous droits réservés</p>
         </footer>
+        <script src="burger.js"></script>
     </body>
 </html>
