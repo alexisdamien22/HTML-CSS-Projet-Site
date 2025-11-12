@@ -89,30 +89,34 @@ h2 {
     position: relative;
     display: flex;
     justify-content: center;
-    gap: 33px;
+    gap: 5vw;
+    bottom: 3vw;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: SemiBold;
-    font-size: 2vh;
+    font-size: 2vw;
     color: white;
 }
 
 .header-center {
     position: relative;
     display: flex;
-    padding-left: 15vw;
+    flex-direction: column;
+    left: 10vw;
+    gap: 3vw;
+    top: 15vw;
 }
 
 .header-center-gold {
+    top: 4vw;
     position: relative;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-size: 3vh;
+    font-size: 3vw;
     font-weight: 600;
     font-style: Medium;
     color: rgba(233, 189, 140, 1);
     display: flex;
-    width: 10%;
     text-align: left;
 }
 
@@ -120,7 +124,7 @@ h2 {
     position: relative;
     text-align: center;
     font-family: "Sansita Swashed", system-ui;
-    font-size: 5vh;
+    font-size: 5vw;
     width: 30vw;
     font-weight: auto;
     font-style: Regular;
@@ -136,15 +140,15 @@ h2 {
     background-color: rgb(147, 60, 36);
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-size: 3vh;
+    font-size: 3vw;
     font-weight: 600;
-    padding: 1vh 1vh;
-    border-radius: 1vh;
+    padding: 1vw 1vw;
+    border-radius: 1vw;
     color: white;
     cursor: pointer;
     margin: 0;
     flex-shrink: 0;
-    width:19.5vh;
+    width:19.5vw;
 }
 
 .section-top-produits {
