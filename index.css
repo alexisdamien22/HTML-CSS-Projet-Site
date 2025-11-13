@@ -56,7 +56,7 @@ h2 {
 
 /* Style the hamburger menu */
 .topnav a.icon {
-    background: white;
+    background:grey;
     display: block;
     position: absolute;
     right: 25px;
@@ -85,6 +85,7 @@ h2 {
 }
 
 .top-info {
+    cursor: pointer;
     list-style-type: none;
     position: relative;
     display: flex;
@@ -386,7 +387,7 @@ h2 {
 
 .scroll-discover {
     padding-bottom: 20px;
-    width: 80vw;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     gap: 40px;
@@ -399,6 +400,63 @@ h2 {
     font-style: SemiBold;
     font-size: 3vw;
     color: rgba(93, 93, 93, 1);
+}
+
+.section-picture-discover {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.picture-discover {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.about {
+    max-width: 100vw;
+    width: 100vw;
+    background-position-x: 50%;
+    background-position-y: 0;
+    height: 442px;
+    background-repeat: no-repeat;
+    background-image: url("Pictures/Background_a_propos.png");
+    border-image-width: 100%;
+    aspect-ratio: 1280/442;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10%;
+}
+
+.about-sub {
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+    font-family: "Sansita Swashed", system-ui;
+    font-size: 3px;
+    font-weight: 500;
+    font-style: Medium;
+    color: white;
+}
+
+.about-text {
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    color: rgba(185, 185, 185, 1)
 }
 
 @media (max-width: 768px) {
@@ -428,10 +486,20 @@ display: none; /* Doesn’t display mydiv-2 at screen sizes upto 700px  */
     background-size: 1280px;
     height: 100%;
 }
+.about {
+    background-size: 1280px;
+    height: 100%;
+}
 .red-text {
     font-size: 3vw;
 }
 .percent {
+    font-size: 4vw;
+}
+.about-text {
+    font-size: 3vw;
+}
+.about-sub {
     font-size: 4vw;
 }
 }
@@ -441,10 +509,20 @@ display: none; /* Doesn’t display mydiv-2 at screen sizes upto 700px  */
     background-size: 100vw;
     height: auto;
 }
+.about {
+    background-size: 1280px;
+    height: 100%;
+}
 .red-text {
     font-size: 3vw;
 }
 .percent {
+    font-size: 4vw;
+}
+.about-text {
+    font-size: 3vw;
+}
+.about-sub {
     font-size: 4vw;
 }
 }
